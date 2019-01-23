@@ -1,0 +1,45 @@
+.view {
+    
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: rgb(125, 189, 248);
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: rgb(125, 189, 248);
+    }
+}
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+hr{
+    color: white;
+    background-color: white;
+
+}
+.view h1{
+    font-size: 60px;
+    font-weight:bold;
+}
+.view button{
+    border-radius: 50px;
+    border: 1px solid white; 
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.view button:hover{
+    color: white;
+}
+hr{
+    width: 75%;
+}
